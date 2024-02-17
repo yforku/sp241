@@ -5,26 +5,26 @@
 # useful, but WITHOUT ANY WARRANTY; without even the implied 
 # warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
-# REV31: Wed 31 Jan 2024 17:00
-# REV30: Tue 28 Feb 2023 09:00
+# REV35: Thu 15 Feb 2024 07:33
+# REV33: Mon 11 Sep 2023 17:00
 # REV29: Mon 13 Feb 2023 13:30
 # REV19: Sun 05 Feb 2023 20:00
-# REV08: Sun 13 Mar 2022 23:00
+# REV11: Sun 08 May 2022 06:00
 # START: Mon 28 Sep 2020 21:00
 
 # ATTN:
 # You new to set "REC2" with your own Public-Key Identity!
 # Check it out with "gpg --list-key"
 # ####################### Replace REC2 ####
-REC2="60914D29C01C81F1"
+REC2="YFORKU"
 # ####################### ####### #### ####
 # REC1: public key
 REC1="63FB12B215403B20"
 # WEEKURL="http://localhost:4000/WEEK/WEEK.txt"
-WEEKURL="https://sp.vlsm.org/WEEK/WEEK.txt"
+WEEKURL="https://os.vlsm.org/WEEK/WEEK.txt"
 FILES="my*.asc my*.txt my*.sh"
 SHA="SHA256SUM"
-RESDIR="$HOME/SP_RESULT/"
+RESDIR="$HOME/RESULT/"
 usage()  { echo "Usage: $0 [-w <WEEK>]" 1>&2; exit 1; }
 nolink() { echo "No LINK $1"            1>&2; exit 1; }
 
@@ -92,7 +92,7 @@ for II in W?? ; do
 done
 popd
 
-if [[ "$WEEK" != "W00" ]] ; then
+if [[ "$WEEK" != "W00" ]] && [[ "$WEEK" != "W01" ]] ; then
     II="${RESDIR}my$WEEK.tar.xz.asc"
     echo "Check and move $II..."
     [ -f $II ] && mv -vf $II .
