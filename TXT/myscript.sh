@@ -24,7 +24,7 @@ REC1="63FB12B215403B20"
 WEEKURL="https://sp.vlsm.org/WEEK/WEEK.txt"
 FILES="my*.asc my*.txt my*.sh"
 SHA="SHA256SUM"
-RESDIR="$HOME/RESULT/"
+RESDIR="$HOME/SP_RESULT/"
 usage()  { echo "Usage: $0 [-w <WEEK>]" 1>&2; exit 1; }
 nolink() { echo "No LINK $1"            1>&2; exit 1; }
 
