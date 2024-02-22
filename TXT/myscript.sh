@@ -92,7 +92,7 @@ for II in W?? ; do
 done
 popd
 
-if [[ "$WEEK" != "W00" ]] && [[ "$WEEK" != "W01" ]] ; then
+if [[ "$WEEK" != "W00" ]] ; then
     II="${RESDIR}my$WEEK.tar.xz.asc"
     echo "Check and move $II..."
     [ -f $II ] && mv -vf $II .
