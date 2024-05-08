@@ -7,5 +7,5 @@
 [MYLOG](TXT/mylog.txt) --- [GitHub Site](https://github.com/yforku/sp241/) --- [GitHub Page](https://yforku.github.io/sp241/) 
 
 
-##### REV19: Tue 30 Apr 2024 16:00
+##### REV20: Wed 08 May 2024 18:00
 
