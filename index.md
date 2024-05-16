@@ -4,8 +4,8 @@
 
 ## YFORKU
 
-[MYLOG](TXT/mylog.txt) --- [GitHub Site](https://github.com/yforku/sp241/) --- [GitHub Page](https://yforku.github.io/sp241/) 
+[TIPS](TIPS/) --- [MYLOG](TXT/mylog.txt) --- [GitHub Site](https://github.com/yforku/sp241/) --- [GitHub Page](https://yforku.github.io/sp241/) 
 
 
-##### REV20: Wed 08 May 2024 18:00
+##### REV21: Thu 16 May 2024 10:00
 
